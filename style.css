@@ -56,7 +56,7 @@
 .intro {
   display: flex;
   justify-content: center;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 
@@ -113,8 +113,245 @@
   box-shadow: 0 0 12px 0 #00A0C1;
 }
 
+.intro__title--font-size {
+  font-size: 1.5rem;
+}
+
+.services__service-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.services__content-wrapper {
+  display: grid;
+  grid-template-columns: 28% 28% 28%;
+  justify-content: space-around;
+  gap: 2rem;
+  width: 70%;
+}
+
+.services__items {
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border: #73737368 solid 1px;
+}
+
+.services__item-header {
+  display: flex;
+  gap: 1rem;
+}
+
+.services__title {
+  font-size: 0.8rem;
+}
+
+.services__item-descr {
+  font-size: 0.8rem;
+  padding-top: 1rem;
+}
+
+.business-service {
+  position: relative;
+}
+
+.business-service__descr {
+  background-color: #FAFAFA;
+  padding-bottom: 8rem;
+}
+
+.business-service__blue-bg {
+  background-color: #252B42;
+  padding-bottom: 18rem;
+}
+
+.business-service__intro {
+  color: transparent;
+}
+
+.business-service__image {
+  position: absolute;
+  width: 60%;
+  bottom: 3rem;
+  left: 15rem;
+}
+
+.client-section {
+  background-color: #FAFAFA;
+  padding-bottom: 3rem;
+}
+
+.client-section__cards-container {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.client-section__card {
+  border:#73737373 solid 1px;
+  border-radius: 5px;
+  width: 18%;
+  padding: 1.5rem;
+}
+
+.client-section__stars-wrapper {
+  display: flex;
+}
+
+.client-section__descr {
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.client-section__identity {
+  display: flex;
+  gap: 1rem;
+}
+
+.client-section__names {
+  color: #FFA62B;
+}
+
+.team-cards {
+  padding: 2rem 0 ;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.team-cards__member-wrapper {
+  width: 17.2rem;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.491);
+}
+
+.team-cards__image {
+  width: 276px;
+  overflow: hidden;
+} 
+
+.team-cards__member {
+  display: flex;
+  justify-content: center;
+}
+
+.team-cards__member-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.team-cards__member-name-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.team-cards__member-role-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.team-cards__member-role {
+  font-size: 9px;
+}
+
+.team-cards__icons-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.contact {
+  position: relative;
+}
+
+.contact__intro {
+  position: absolute;
+  margin-top: 3rem;
+  width: fit-content;
+  top: 2rem;
+  left: 8rem;
+}
+
+.contact__bg {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.contact__small-title {
+  color: #252B42;
+}
+
+.contact__title {
+  color: #252B42;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact__personnal-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.contact__input {
+  border: #BDBDBD solid 1px;
+  width: 15rem;
+  height: 2rem;
+  background-color: transparent;
+}
+
+.contact__input::placeholder {
+  color: #BDBDBD;
+  padding-left: 1rem;
+}
+
+.contact__selector{
+  border: #BDBDBD solid 1px;
+  width: 15.2rem;
+  height: 2rem;
+  background-color: transparent;
+}
+
+.contact__textarea {
+  width: 99.6%;
+  height: 5rem;
+  margin-top: 1rem;
+  color: #BDBDBD;
+  border: #BDBDBD solid 1px;
+}
+
+.contact__textarea::placeholder {
+  position: absolute;
+  left: 1rem;
+  top: .5rem;
+}
+
+.contact__submit-btn {
+  border: none;
+  background-color: #FFA62B;
+  padding: 9px 15px;
+  border-radius: 3px;
+  font-weight: 600;
+  margin-top: 2rem;
+  color: white;
+  font-size: small;
+}
+
+.contact__submit-btn:hover {
+  box-shadow:  0 0 2px 0 #FFA62B;
+}
+
 @media(max-width: 748px) {
-/* .header {} */
+.header {
+  background-color: #FAFAFA;
+  padding-bottom: 0;
+}
 
 .header__content-wrapper {
   display: flex;
@@ -178,6 +415,7 @@
   display: flex;
   justify-content: center;
   padding-top: 3%;
+  padding-bottom: 3rem;
   background-color: white;
 }
 
@@ -244,5 +482,145 @@
 
 .intro__btn-blue-border:hover {
   box-shadow: 0 0 12px 0 #00A0C1;
+}
+
+.services__content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-around;
+  gap: 2rem;
+  width: 90%;
+}
+
+.services__item-descr {
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+.business-service {
+  position: relative;
+}
+
+.business-service__descr {
+  background-color: #FAFAFA;
+  padding-bottom: 5rem;
+}
+
+.business-service__blue-bg {
+  background-color: #252B42;
+  padding-bottom: 16rem;
+}
+
+.business-service__intro {
+  color: transparent;
+}
+
+.business-service__image {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  bottom: 3rem;
+  left: 2.9rem;
+}
+
+.client-section__cards-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.client-section__card {
+  border:#73737373 solid 1px;
+  border-radius: 5px;
+  width: 60%;
+  padding: 1.5rem;
+}
+
+.team-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-cards__member-wrapper {
+  width: 80%;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.491);
+}
+
+.team-cards__image {
+  width: 100%;
+}
+
+
+.contact__intro {
+  position: absolute;
+  margin-top: 3rem;
+  width: fit-content;
+  top: -2rem;
+  left: 2rem;
+}
+
+.contact__small-title {
+  color: #252B42;
+}
+
+.contact__title {
+  color: #252B42;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact__personnal-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.contact__input {
+  border: #BDBDBD solid 1px;
+  width: 99.7%;
+  height: 2rem;
+  background-color: transparent;
+}
+
+.contact__input::placeholder {
+  color: #BDBDBD;
+  padding-left: 1rem;
+}
+
+.contact__selector{
+  border: #BDBDBD solid 1px;
+  width: 99.7%;
+  height: 2rem;
+  background-color: transparent;
+}
+
+.contact__textarea {
+  width: 99.6%;
+  height: 5rem;
+  margin-top: 1rem;
+  color: #BDBDBD;
+  border: #BDBDBD solid 1px;
+}
+
+.contact__textarea::placeholder {
+  position: absolute;
+  left: 1rem;
+  top: .5rem;
+}
+
+.contact__submit-btn {
+  border: none;
+  background-color: #FFA62B;
+  padding: 9px auto;
+  width: 99.7%;
+  border-radius: 3px;
+  font-weight: 600;
+  margin-top: 2rem;
+  color: white;
+  font-size: small;
 }
 }
