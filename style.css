@@ -303,18 +303,19 @@
   border: #BDBDBD solid 1px;
   width: 15rem;
   height: 2rem;
+  padding-left: 1rem;
   background-color: transparent;
 }
 
 .contact__input::placeholder {
   color: #BDBDBD;
-  padding-left: 1rem;
 }
 
 .contact__selector{
   border: #BDBDBD solid 1px;
-  width: 15.2rem;
+  width: 16.1rem;
   height: 2rem;
+  padding-left: 0.95rem;
   background-color: transparent;
 }
 
@@ -346,6 +347,77 @@
 .contact__submit-btn:hover {
   box-shadow:  0 0 2px 0 #FFA62B;
 }
+
+.contact-us {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-us__descr-wrapper {
+  width: fit-content;
+  display: flex;
+}
+
+.contact-us__descr {
+  margin-top: 2rem;
+  margin-right: 36rem;
+}
+
+.footer {
+  margin-top: 1rem;
+  color: white;
+  background-color: #252B42;
+}
+
+.footer__header-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__header {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
+  border-bottom: #364067 solid 1px;
+}
+
+.footer__icon-content {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 7px;
+}
+
+.footer__info-links-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: red solid 1px;
+  gap: 2rem;
+  font-size: 12px;
+}
+
+.footer__list {
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer__info-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #737373;
+}
+
+.footer__header--between {
+  border: red solid 1px;
+}
+
+
 
 @media(max-width: 748px) {
 .header {
@@ -581,25 +653,24 @@
 
 .contact__input {
   border: #BDBDBD solid 1px;
-  width: 99.7%;
+  width: 94.5%;
   height: 2rem;
   background-color: transparent;
 }
 
 .contact__input::placeholder {
   color: #BDBDBD;
-  padding-left: 1rem;
 }
 
 .contact__selector{
   border: #BDBDBD solid 1px;
-  width: 99.7%;
+  width: 100%;
   height: 2rem;
   background-color: transparent;
 }
 
 .contact__textarea {
-  width: 99.6%;
+  width: 100%;
   height: 5rem;
   margin-top: 1rem;
   color: #BDBDBD;
@@ -623,4 +694,45 @@
   color: white;
   font-size: small;
 }
+
+.contact-us {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-us__descr-wrapper {
+  width: 70%;
+  display: flex;
+  padding-bottom: 2rem;
+  flex-direction: column;
+}
+
+.contact-us__descr {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 1rem;
+}
+
+.contact-us__descr-title {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.footer__header-wrapper {
+  display: block;
+}
+
+.footer__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+  gap: 2rem;
+  padding: 1.5rem 0;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: transparent solid 1px;
+}
+
 }
