@@ -392,7 +392,6 @@
 .footer__info-links-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  border: red solid 1px;
   gap: 2rem;
   font-size: 12px;
 }
@@ -413,11 +412,16 @@
   color: #737373;
 }
 
-.footer__header--between {
-  border: red solid 1px;
+.footer__conclusion {
+  padding: 1rem;
+  background-color: #16697A
+  ;
 }
 
-
+.footer__last-sentence {
+  font-size: 12px;
+  margin-left: 11rem;
+}
 
 @media(max-width: 748px) {
 .header {
@@ -735,4 +739,15 @@
   border-bottom: transparent solid 1px;
 }
 
+.footer__info-links-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  font-size: 12px;
+}
+
+.footer__last-sentence {
+  font-size: 12px;
+  margin-left: 1rem;
+}
 }
