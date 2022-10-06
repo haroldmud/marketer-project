@@ -49,7 +49,7 @@
   margin: auto 0;
 }
 
-.mobileMenu__navlink {
+.mobile-menu__navlink {
   display: none;
 }
 
@@ -66,10 +66,6 @@
 }
 
 .intro__description {
-  width: 40%;
-}
-
-.team__description {
   width: 40%;
 }
 
@@ -294,7 +290,7 @@
   left: 8rem;
 }
 
-.contact__bg {
+.contact__image-bg {
   width: 100%;
   height: 500px;
   object-fit: cover;
@@ -523,14 +519,14 @@
   margin: auto 0;
 }
 
-.mobileMenu__navlink {
+.mobile-menu__navlink {
   display: flex;
   flex-direction: column;
   padding-top: 3rem;
   padding-bottom: 5rem;
 }
 
-.mobileMenu__link {
+.mobile-menu__link {
   text-align: center;
   color: #737373;
   text-decoration: none;
@@ -538,7 +534,7 @@
   font-size: 1.7rem;
 }
 
-.mobileMenu__link:hover {
+.mobile-menu__link:hover {
   text-decoration: underline;
 }
 
@@ -550,7 +546,7 @@
   background-color: white;
 }
 
-.team__intro {
+.team {
   display: flex;
   justify-content: center;
   padding-top: 3%;
