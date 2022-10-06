@@ -59,8 +59,17 @@
   padding-top: 5%;
 }
 
+.team__intro {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
 
 .intro__description {
+  width: 40%;
+}
+
+.team__description {
   width: 40%;
 }
 
@@ -70,7 +79,19 @@
   text-align: center;
 }
 
+.team__title {
+  color: #252B42;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
 .intro__sentence {
+  text-align: center;
+  color: #737373;
+  margin-top: 2rem;
+}
+
+.team__sentence {
   text-align: center;
   color: #737373;
   margin-top: 2rem;
@@ -111,10 +132,6 @@
 
 .intro__btn-blue-border:hover {
   box-shadow: 0 0 12px 0 #00A0C1;
-}
-
-.intro__title--font-size {
-  font-size: 1.5rem;
 }
 
 .services__service-container {
@@ -529,12 +546,25 @@
   background-color: white;
 }
 
+.team__intro {
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3rem;
+  background-color: white;
+}
 
 .intro__link {
   text-align: center;
 }
 
+
+
 .intro__description {
+  width: 75%;
+}
+
+.team__description {
   width: 75%;
 }
 
@@ -544,7 +574,19 @@
   text-align: center;
 }
 
+.team__title {
+  color: #252B42;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
 .intro__sentence {
+  text-align: center;
+  color: #737373;
+  margin-top: 2rem;
+}
+
+.team__sentence {
   text-align: center;
   color: #737373;
   margin-top: 2rem;
@@ -785,3 +827,182 @@
   margin-left: 1rem;
 }
 }
+
+
+
+
+.business-service__intro {
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3rem;
+  background-color: #FAFAFA;
+}
+
+.business-service__intro-description {
+  width: 75%;
+}
+
+.business-service__title {
+  color: #252B42;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.business-service__sentence {
+  text-align: center;
+  color: #737373;
+  margin-top: 2rem;
+  
+}
+
+.client-section__intro {
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3rem;
+  background-color: #FAFAFA;
+}
+
+.client-section__description {
+  width: 75%;
+}
+
+.client-section__title {
+  color: #252B42;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.client-section__sentence {
+  text-align: center;
+  color: #737373;
+  margin-top: 2rem;
+  
+}
+
+.services__intro {
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3rem;
+  background-color: white;
+}
+
+.services__description {
+  width: 75%;
+}
+
+.services__main-title {
+  text-align: center;
+  color: #252B42;
+}
+
+.services__title {
+  color: #252B42;
+  text-align: center;
+  font-size: 12px;
+}
+
+.services__sentence {
+  text-align: center;
+  color: #737373;
+  margin-top: 2rem;
+  
+}
+
+.business-service__title-trans {
+  color: transparent;
+}
+
+.business-service__sentence-trans {
+  color: transparent;
+}
+
+
+@media (max-width: 748px) {
+  .business-service__intro {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3rem;
+    background-color: white;
+  }
+  
+  .business-service__intro-description {
+    width: 75%;
+  }
+
+  .business-service__title-trans {
+    color: transparent;
+  }
+  
+  .business-service__sentence-trans {
+    color: transparent;
+  }
+
+  .business-service__title {
+    color: #252B42;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .business-service__sentence {
+    text-align: center;
+    color: #737373;
+    margin-top: 2rem;
+  }
+
+  .client-section__intro {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3rem;
+    background-color: white;
+  }
+  
+  .client-section__description {
+    width: 75%;
+  }
+  
+  .client-section__title {
+    color: #252B42;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .client-section__sentence {
+    text-align: center;
+    color: #737373;
+    margin-top: 2rem;
+  }
+
+  .services__intro {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3rem;
+    background-color: white;
+  }
+  
+  .services__description {
+    width: 75%;
+  }
+
+  .services__main-title {
+    text-align: center;
+    color: #252B42;
+  }
+  
+  .services__title {
+    color: #252B42;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .services__sentence {
+    text-align: center;
+    color: #737373;
+    margin-top: 2rem;
+  }
+} 
