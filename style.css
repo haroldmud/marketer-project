@@ -474,6 +474,10 @@
   font-size: 12px;
 }
 
+.contact-us__descr-title {
+  color: #252B42;
+}
+
 @media(max-width: 748px) {
 .header {
   background-color: #FAFAFA;
@@ -846,7 +850,7 @@
 .business-service__title {
   color: #252B42;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 .business-service__sentence {
@@ -871,7 +875,7 @@
 .client-section__title {
   color: #252B42;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 .client-section__sentence {
@@ -896,6 +900,7 @@
 .services__main-title {
   text-align: center;
   color: #252B42;
+  font-size: 2.5rem;
 }
 
 .services__title {
