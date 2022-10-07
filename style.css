@@ -409,7 +409,7 @@
   font-size: 12px;
 }
 
-.footer__list {
+.footer__list-item {
   text-decoration: none;
   list-style: none;
 }
