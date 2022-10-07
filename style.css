@@ -357,7 +357,22 @@
   font-size: small;
 }
 
+.contact-us__submit-btn {
+  border: none;
+  background-color: #FFA62B;
+  padding: 9px 15px;
+  border-radius: 3px;
+  font-weight: 600;
+  margin-top: 2rem;
+  color: white;
+  font-size: small;
+}
+
 .contact__submit-btn:hover {
+  box-shadow:  0 0 2px 0 #FFA62B;
+}
+
+.contact-us__submit-btn:hover {
   box-shadow:  0 0 2px 0 #FFA62B;
 }
 
@@ -775,6 +790,8 @@
   font-size: small;
 }
 
+
+
 .contact-us {
   display: flex;
   justify-content: center;
@@ -798,6 +815,19 @@
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
+
+.contact-us__submit-btn {
+  border: none;
+  background-color: #FFA62B;
+  padding: 9px auto;
+  width: 99.7%;
+  border-radius: 3px;
+  font-weight: 600;
+  margin-top: 2rem;
+  color: white;
+  font-size: small;
+}
+
 
 .footer__header-wrapper {
   display: block;
